@@ -1,0 +1,1 @@
+module.exports={evalExpr:s=>eval(s.replace(/([-+])\1+/g,m=>[...m].join` `))}
